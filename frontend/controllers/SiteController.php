@@ -210,4 +210,16 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    public function actionCategory()
+    {
+        return $this->render('category');
+    }
+
+    public function actionArticle()
+    {
+        return $this->render('single');
+    }
+
+
 }

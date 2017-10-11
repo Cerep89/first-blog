@@ -9,6 +9,10 @@ use yii\helpers\Html;
 
 $this->title = $name;
 ?>
+<header class="header-transparent wow slideInDown">
+    <?= $this->render('/partials/header');?>
+</header>
+
 <div class="site-error">
 
     <h1><?= Html::encode($this->title) ?></h1>

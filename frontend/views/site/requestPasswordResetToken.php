@@ -10,6 +10,9 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Request password reset';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<header class="header-transparent wow slideInDown">
+    <?= $this->render('/partials/header');?>
+</header>
 <div class="site-request-password-reset">
     <h1><?= Html::encode($this->title) ?></h1>
 
