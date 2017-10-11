@@ -14,7 +14,12 @@ class m171010_183356_create_phrases_table extends Migration
     {
         $this->createTable('phrases', [
             'id' => $this->primaryKey(),
-
+            /****************************
+             *     Phrases section
+             **************************/
+            'phrases_title_' => $this->string(),
+            'phrases_text' => $this->string(),
+            'phrases_author' => $this->string(),
         ]);
     }
 
