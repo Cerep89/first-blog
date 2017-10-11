@@ -19,7 +19,7 @@ class m171010_183300_create_about_table extends Migration
              * First section
              **************************/
 
-            'about_title_' => $this->string(),
+            'about_title' => $this->string(),
             'about_text' => $this->string(),
 
             /****************************
