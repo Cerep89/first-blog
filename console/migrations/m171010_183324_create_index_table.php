@@ -62,6 +62,33 @@ class m171010_183324_create_index_table extends Migration
             'three_proiect_three_number' => $this->integer(),
             'three_proiect_three_title' => $this->string(),
             'three_proiect_three_text' => $this->string(),
+            /****************************
+             * Section for
+             ********************/
+            'for_background' => $this->string(),
+            'for_title' => $this->string(),
+
+//            Items
+            'for_one_item_title' => $this->string(),
+            'for_one_item_text' => $this->string(),
+            'for_two_item_title' => $this->string(),
+            'for_two_item_text' => $this->string(),
+            'for_three_item_title' => $this->string(),
+            'for_three_item_text' => $this->string(),
+            'for_for_item_title' => $this->string(),
+            'for_for_item_text' => $this->string(),
+//           Image right
+            'for_for_image_right' => $this->string(),
+            /****************************
+             * Section five
+             ********************/
+            'five_image_left' => $this->string(),
+            'five_title_right' => $this->string(),
+            'five_text_right' => $this->string(),
+            'five_button_right' => $this->string(),
+            'five_button_link_right' => $this->string(),
+
+
 
 //
         ]);
